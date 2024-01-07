@@ -1,0 +1,68 @@
+.main-container{
+    background-image: url(steakBackground.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body{
+    margin: 0;
+}
+
+.header-div{
+    height: 30%;
+    opacity: 0.8;
+    background-color: black;
+}
+
+.header{   
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 4rem;
+}
+
+.header2{   
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-top: 5%; */
+}
+
+.navbar{
+    list-style: none;
+    color: white;
+    display: flex;
+
+    font-size: 3rem;
+    
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    gap: 1%;
+    
+    align-items: end;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration:underline;
+}
+
+.main-box{
+    width: 50%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    border-radius: 10px;
+    background-color: black;
+    opacity: 0.7;
+}
