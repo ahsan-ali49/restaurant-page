@@ -81,3 +81,32 @@ a:active{
     margin-top: 1%;
 }
 
+.outer2-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.outer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.inner-box{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 330px;
+    height: 300px;
+}
+
+.row-2{
+    margin-bottom: 10px;
+}
+
+.inner-box:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
